@@ -3,8 +3,8 @@ body { margin: 0; }
 #bridge {
 	display: block;
 	margin: 0 auto;
-    background-image: "/message.png";
-	background-image: -webkit-image-set("/message.png" 1x, "/message.png" 2x );
+  background-image: url('message.png');
+	background-image: -webkit-image-set(url('message.png') 1x, url('message.png') 2x );
 	background-size: cover;
 	width: 100%;
 	max-width: 750px;

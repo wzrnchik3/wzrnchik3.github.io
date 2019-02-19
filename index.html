@@ -17,7 +17,7 @@
         <![endif]-->
         <figure id="bridgeContainer">
             <canvas id="bridge" width="958" height="960"></canvas>
-              <figcaption>Happy Birthday Mom!</figcaption>
+              <figcaption>Happy Birthday Mom! Scratch off the picture.</figcaption>
         </figure>
         
         <script>
@@ -30,7 +30,7 @@
             img.onload = function(){  
                 bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
             }
-            img.loc = '/';
+            img.loc = '';
             img.filename = 'mom.jpg';
             if (window.devicePixelRatio >= 2) {
                 var nameParts = img.filename.split('.');
