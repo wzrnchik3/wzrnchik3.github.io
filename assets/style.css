@@ -47,10 +47,29 @@ h2.edu {
     color: #a5acaf;
 }
 .picture {
-    margin: 3em 20em;
-    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 75%;
+    object-fit: cover;
 }
 .picture1 {
-    height: 210px;
-    margin: 3em 11em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    object-fit: center;
+}
+.row {
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
