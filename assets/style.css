@@ -1,3 +1,12 @@
+a {
+    color: white;
+}
+a:hover {
+    color: #a5acaf;
+}
+i {
+    margin: 10px;
+}
 .about {
     font-family: 'Neuton', serif;
     color: #ffffff;
@@ -55,7 +64,7 @@ h2.edu {
     margin: auto;
     height: auto;
     width: auto;
-    max-width: 75%;
+    max-width: 35%;
     object-fit: cover;
 }
 .picture1 {
